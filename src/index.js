@@ -6,9 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import MeteoWidget from './components/MeteoWidget';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <MeteoWidget />
+    <MeteoWidget city='Montpellier' zipcode={34000} />
   </React.StrictMode>
 );
 
